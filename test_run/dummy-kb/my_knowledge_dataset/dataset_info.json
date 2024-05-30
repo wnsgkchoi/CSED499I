@@ -1,0 +1,49 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "csv",
+  "dataset_size": 3603,
+  "description": "",
+  "download_checksums": {
+    "/home/flash/Conformal_RAG/rag-end2end-retriever/test_run/dummy-kb/my_knowledge_dataset.csv": {
+      "num_bytes": 3592,
+      "checksum": null
+    }
+  },
+  "download_size": 3592,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "title": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "embeddings": {
+      "feature": {
+        "dtype": "float32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7195,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3603,
+      "num_examples": 2,
+      "dataset_name": "csv"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
